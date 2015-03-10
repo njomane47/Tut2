@@ -96,4 +96,3 @@ Fraction Fraction::operator/(Fraction.n)
 
 
 Fraction::~Fraction() // deconstructor
-{
