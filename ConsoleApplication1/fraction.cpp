@@ -10,11 +10,9 @@ public:
 	~Fraction();
 
 	int getnumerator();
-	void Setnumerator(int num)
-		int getdenominator();
+	void Setnumerator(int num);
+	int getdenominator();
 	void Setdenominator(int num);
-
-
 
 	Fraction add(Fraction add);
 	Fraction subtract(Fraction subtract);

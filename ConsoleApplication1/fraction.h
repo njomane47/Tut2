@@ -1,4 +1,4 @@
-#include "Fraction.h"
+#include"Fraction.h"
 #include<iostream>
 using namespace std;
 Fraction::Fraction(int N, int D)// constructor
@@ -7,23 +7,23 @@ Fraction::Fraction(int N, int D)// constructor
 	deno = den;
 };
 
-int Fraction::Gnumerator()
+int Fraction::Getnumerator()
 {
 	return numr;
 };
 
-int Fraction::Gdenominator()
+int Fraction::Getdenominator()
 {
 	return deno;
 };
 
-void Fraction::Sdenominator(int num)
+void Fraction::Setdenominator(int num)
 {
 	numr = num;
 };
 
 
-void Fraction::Snumerator(int num)
+void Fraction::Setnumerator(int num)
 {
 	numr = num;
 };
