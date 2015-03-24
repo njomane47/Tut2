@@ -1,4 +1,4 @@
-#include"Fraction.h"
+//#include"Fraction.h"
 #include<iostream>
 using namespace std;
 Fraction::Fraction(int N, int D)// constructor
@@ -34,7 +34,7 @@ Fraction Fraction::add(Fraction.n)
 	return Fraction(numr*n.deno + n.numr*deno, numr*n.deno);
 };
 
-Fraction Fraction::subtract(Fraction.n)
+Fraction Fraction::subtract(Fraction n)
 {
 	return Fraction(numr*n.deno - n.numr*deno, deno*n.deno);
 };
@@ -71,23 +71,23 @@ void Fraction::print()                                                    //disp
 	}
 };
 
-Fraction Fraction::operator+(Fraction.n)
+Fraction Fraction::operator+(Fraction n)
 {
 	return Fraction(numr*n.deno + n.numr*deno, deno*n.deno);
 };
 
-Fraction Fraction::operator-(Fraction.n)
+Fraction Fraction::operator-(Fraction n)
 {
-	return Fraction(numr*subtract.deno - subtract.numr*deno, deno*n.deno);
+	return Fraction(numr*n.deno - n.numr*deno, deno*n.deno);
 };
 
-Fraction Fraction::operator*(Fraction.n)
+Fraction Fraction::operator*(Fraction n)
 {
 	return Fraction(numr*n.numr, deno*n.deno);
 };
 
 
-Fraction Fraction::operator/(Fraction.n)
+Fraction Fraction::operator/(Fraction n)
 {
 	return Fraction(numr*n.deno, deno*n.numr);
 

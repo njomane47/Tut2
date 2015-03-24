@@ -18,8 +18,9 @@ namespace fractiontest
 
 		TEST_METHOD(Testsubtracttwofraction)
 		{
-			Fraction Frac;
-			Assert::AreEqual((Frac.subtract(Frac(1, 2) - Frac(1, 2))), Frac(0, 1));
+			Fraction Frac(1,2);
+
+			Assert::AreEqual((Frac.subtract(Frac(1, 2)), Frac(0, 1));
 		}
 
 		TEST_METHOD(Testdivisiontwofraction)
