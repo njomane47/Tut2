@@ -3,8 +3,8 @@
 using namespace std;
 Fraction::Fraction(int N, int D)// constructor
 {
-	numr = num;
-	deno = den;
+	numr = N;
+	deno = D;
 };
 
 int Fraction::Getnumerator()

@@ -10,6 +10,10 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Fraction.cpp" />
+    <ClInclude Include="Fraction.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{84143113-F5B3-4A63-A2D6-956DF5B372AF}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
