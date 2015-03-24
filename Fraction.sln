@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fraction", "Fraction\Fraction.vcxproj", "{84143113-F5B3-4A63-A2D6-956DF5B372AF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fractiontest", "fractiontest\fractiontest.vcxproj", "{5041F7CD-C0EC-49E2-8640-A76E49C23B44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84143113-F5B3-4A63-A2D6-956DF5B372AF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{84143113-F5B3-4A63-A2D6-956DF5B372AF}.Debug|Win32.Build.0 = Debug|Win32
+		{84143113-F5B3-4A63-A2D6-956DF5B372AF}.Release|Win32.ActiveCfg = Release|Win32
+		{84143113-F5B3-4A63-A2D6-956DF5B372AF}.Release|Win32.Build.0 = Release|Win32
+		{5041F7CD-C0EC-49E2-8640-A76E49C23B44}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5041F7CD-C0EC-49E2-8640-A76E49C23B44}.Debug|Win32.Build.0 = Debug|Win32
+		{5041F7CD-C0EC-49E2-8640-A76E49C23B44}.Release|Win32.ActiveCfg = Release|Win32
+		{5041F7CD-C0EC-49E2-8640-A76E49C23B44}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
